@@ -1,1 +1,25 @@
 Responder las siguientes preguntas
+
+*Que es polimorfismo
+El polimorfismo en la Programación Orientada a Objetos (POO) es una característica que nos permite tratar diferentes objetos de manera uniforme, independientemente de su tipo específico. En otras palabras, un objeto puede tomar diferentes formas o comportarse de diferentes maneras según el contexto en el que se utilice. Esto facilita la reutilización de código y mejora la flexibilidad del sistema.
+
+*Tipos de polimorfismo
+Polimorfismo de sobrecarga: Se refiere a la posibilidad de tener varios métodos con el mismo nombre en una clase, pero con diferentes parámetros. Por ejemplo, podemos tener un método “sumar” que acepte diferentes tipos de datos como argumentos.
+Polimorfismo de coerción: Implica convertir automáticamente el tipo de dato de un argumento al tipo esperado por una función. Por ejemplo, si una función espera un número entero, pero le pasamos un número decimal, se realizará una conversión implícita.
+Polimorfismo de inclusión (sobreescritura): Ocurre cuando una subclase proporciona una implementación específica para un método que está definido en su superclase. Esto nos permite modificar o extender el comportamiento heredado.
+
+*Ejemplo de sobrecarga
+Supongamos que tenemos una clase llamada Calculadora con un método sumar. Podemos sobrecargar este método para que acepte diferentes tipos de argumentos, como enteros, decimales o cadenas.
+
+*Sobreescritura de métodos
+La sobreescritura de métodos permite a una subclase proporcionar una implementación específica para un método que está definido en su superclase. Por ejemplo, si tenemos una clase base llamada Vehiculo con un método imprimir, podemos crear una subclase llamada Coche que sobreescriba este método para proporcionar una implementación específica para los coches.
+
+*Que beneficios ofrece el polimorfismo a la POO
+Reutilización de código: Permite utilizar una interfaz común para diferentes clases, evitando duplicación de código.
+Flexibilidad: Facilita la extensión y modificación del comportamiento sin afectar otras partes del sistema.
+Modularidad: Permite tratar objetos de manera uniforme, lo que simplifica el diseño y la estructura del programa.
+
+*Enunciar (No codificar) tres ejemplos de polimorfismo
+Un programa que procesa diferentes formas geométricas (círculos, rectángulos, triángulos) utilizando un método común para calcular áreas.
+Una aplicación bancaria que maneja diferentes tipos de cuentas (ahorro, corriente, inversión) con un método para calcular intereses.
+Un juego con diferentes personajes (guerreros, magos, arqueros) que comparten un método para atacar.
